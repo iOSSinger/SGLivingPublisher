@@ -25,7 +25,7 @@ iOS不用任何第三方写一个简单的RTMP直播推流器
 以上就是整个项目的基本结构,整个过程类似工厂流水线,可以自行对各个模块进行替换和研究.demo中注释也不少,方便理解.
 
 附上完整的代码:<https://github.com/iOSSinger/SGLivingPublisher>
-附上RTMP中文文档:<https://github.com/iOSSinger/imageRepository/raw/master/RTMP.docx>
+附上RTMP中文文档:<https://raw.githubusercontent.com/iOSSinger/SGLivingPublisher/master/RTMP.docx>
 附上学习博客:
 雷晓华博士的博客:这个是非常好的视音频开发技术文章,喜欢视音频的可以看看<http://blog.csdn.net/leixiaohua1020>
 
