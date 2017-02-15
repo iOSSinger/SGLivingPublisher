@@ -61,6 +61,7 @@
     VTSessionSetProperty(_compressionSession, kVTCompressionPropertyKey_ProfileLevel, kVTProfileLevel_H264_Baseline_AutoLevel);
     
     VTSessionSetProperty(_compressionSession, kVTCompressionPropertyKey_AllowFrameReordering, kCFBooleanFalse);
+    //16:9
     VTSessionSetProperty(_compressionSession, kVTCompressionPropertyKey_AspectRatio16x9, kCFBooleanTrue);
     
     VTCompressionSessionPrepareToEncodeFrames(_compressionSession);
