@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7E75F21E45758400229B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E75F11E45758400229B9D /* main.m */; };
+		CB7E75F51E45758400229B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E75F41E45758400229B9D /* AppDelegate.m */; };
+		CB7E75F81E45758400229B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E75F71E45758400229B9D /* ViewController.m */; };
+		CB7E75FB1E45758400229B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7E75F91E45758400229B9D /* Main.storyboard */; };
+		CB7E75FD1E45758400229B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7E75FC1E45758400229B9D /* Assets.xcassets */; };
+		CB7E76001E45758400229B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7E75FE1E45758400229B9D /* LaunchScreen.storyboard */; };
+		CB7E762E1E45764C00229B9D /* SGSimpleSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E760A1E45764C00229B9D /* SGSimpleSession.m */; };
+		CB7E762F1E45764C00229B9D /* NSMutableData+Buffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E760D1E45764C00229B9D /* NSMutableData+Buffer.m */; };
+		CB7E76301E45764C00229B9D /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E760F1E45764C00229B9D /* NSString+URL.m */; };
+		CB7E76311E45764C00229B9D /* SGAACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76121E45764C00229B9D /* SGAACEncoder.m */; };
+		CB7E76321E45764C00229B9D /* SGH264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76141E45764C00229B9D /* SGH264Encoder.m */; };
+		CB7E76331E45764C00229B9D /* SGAACPackager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76171E45764C00229B9D /* SGAACPackager.m */; };
+		CB7E76341E45764C00229B9D /* SGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76191E45764C00229B9D /* SGFrame.m */; };
+		CB7E76351E45764C00229B9D /* SGH264Packager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E761B1E45764C00229B9D /* SGH264Packager.m */; };
+		CB7E76361E45764C00229B9D /* SGRtmpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E761E1E45764C00229B9D /* SGRtmpConfig.m */; };
+		CB7E76371E45764C00229B9D /* SGRtmpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76201E45764C00229B9D /* SGRtmpSession.m */; };
+		CB7E76381E45764C00229B9D /* SGStreamSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76231E45764C00229B9D /* SGStreamSession.m */; };
+		CB7E76391E45764C00229B9D /* SGAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76261E45764C00229B9D /* SGAudioConfig.m */; };
+		CB7E763A1E45764C00229B9D /* SGAudioSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E76281E45764C00229B9D /* SGAudioSource.m */; };
+		CB7E763B1E45764C00229B9D /* SGVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E762A1E45764C00229B9D /* SGVideoConfig.m */; };
+		CB7E763C1E45764C00229B9D /* SGVideoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E762C1E45764C00229B9D /* SGVideoSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB7E75ED1E45758400229B9D /* SGLivingPublisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGLivingPublisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7E75F11E45758400229B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB7E75F31E45758400229B9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB7E75F41E45758400229B9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB7E75F61E45758400229B9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB7E75F71E45758400229B9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB7E75FA1E45758400229B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7E75FC1E45758400229B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7E75FF1E45758400229B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB7E76011E45758400229B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7E76091E45764C00229B9D /* SGSimpleSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSimpleSession.h; sourceTree = "<group>"; };
+		CB7E760A1E45764C00229B9D /* SGSimpleSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSimpleSession.m; sourceTree = "<group>"; };
+		CB7E760C1E45764C00229B9D /* NSMutableData+Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Buffer.h"; sourceTree = "<group>"; };
+		CB7E760D1E45764C00229B9D /* NSMutableData+Buffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Buffer.m"; sourceTree = "<group>"; };
+		CB7E760E1E45764C00229B9D /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		CB7E760F1E45764C00229B9D /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		CB7E76111E45764C00229B9D /* SGAACEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAACEncoder.h; sourceTree = "<group>"; };
+		CB7E76121E45764C00229B9D /* SGAACEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAACEncoder.m; sourceTree = "<group>"; };
+		CB7E76131E45764C00229B9D /* SGH264Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGH264Encoder.h; sourceTree = "<group>"; };
+		CB7E76141E45764C00229B9D /* SGH264Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGH264Encoder.m; sourceTree = "<group>"; };
+		CB7E76161E45764C00229B9D /* SGAACPackager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAACPackager.h; sourceTree = "<group>"; };
+		CB7E76171E45764C00229B9D /* SGAACPackager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAACPackager.m; sourceTree = "<group>"; };
+		CB7E76181E45764C00229B9D /* SGFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFrame.h; sourceTree = "<group>"; };
+		CB7E76191E45764C00229B9D /* SGFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFrame.m; sourceTree = "<group>"; };
+		CB7E761A1E45764C00229B9D /* SGH264Packager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGH264Packager.h; sourceTree = "<group>"; };
+		CB7E761B1E45764C00229B9D /* SGH264Packager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGH264Packager.m; sourceTree = "<group>"; };
+		CB7E761D1E45764C00229B9D /* SGRtmpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRtmpConfig.h; sourceTree = "<group>"; };
+		CB7E761E1E45764C00229B9D /* SGRtmpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRtmpConfig.m; sourceTree = "<group>"; };
+		CB7E761F1E45764C00229B9D /* SGRtmpSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRtmpSession.h; sourceTree = "<group>"; };
+		CB7E76201E45764C00229B9D /* SGRtmpSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRtmpSession.m; sourceTree = "<group>"; };
+		CB7E76211E45764C00229B9D /* SGRtmpTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRtmpTypes.h; sourceTree = "<group>"; };
+		CB7E76221E45764C00229B9D /* SGStreamSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStreamSession.h; sourceTree = "<group>"; };
+		CB7E76231E45764C00229B9D /* SGStreamSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStreamSession.m; sourceTree = "<group>"; };
+		CB7E76251E45764C00229B9D /* SGAudioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAudioConfig.h; sourceTree = "<group>"; };
+		CB7E76261E45764C00229B9D /* SGAudioConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAudioConfig.m; sourceTree = "<group>"; };
+		CB7E76271E45764C00229B9D /* SGAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAudioSource.h; sourceTree = "<group>"; };
+		CB7E76281E45764C00229B9D /* SGAudioSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGAudioSource.m; sourceTree = "<group>"; };
+		CB7E76291E45764C00229B9D /* SGVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGVideoConfig.h; sourceTree = "<group>"; };
+		CB7E762A1E45764C00229B9D /* SGVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGVideoConfig.m; sourceTree = "<group>"; };
+		CB7E762B1E45764C00229B9D /* SGVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGVideoSource.h; sourceTree = "<group>"; };
+		CB7E762C1E45764C00229B9D /* SGVideoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGVideoSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7E75EA1E45758400229B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7E75E41E45758400229B9D = {
+			isa = PBXGroup;
+			children = (
+				CB7E75EF1E45758400229B9D /* SGLivingPublisher */,
+				CB7E75EE1E45758400229B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7E75EE1E45758400229B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E75ED1E45758400229B9D /* SGLivingPublisher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7E75EF1E45758400229B9D /* SGLivingPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76071E45764C00229B9D /* SGRTMPKit */,
+				CB7E75F31E45758400229B9D /* AppDelegate.h */,
+				CB7E75F41E45758400229B9D /* AppDelegate.m */,
+				CB7E75F61E45758400229B9D /* ViewController.h */,
+				CB7E75F71E45758400229B9D /* ViewController.m */,
+				CB7E75F91E45758400229B9D /* Main.storyboard */,
+				CB7E75FC1E45758400229B9D /* Assets.xcassets */,
+				CB7E75FE1E45758400229B9D /* LaunchScreen.storyboard */,
+				CB7E76011E45758400229B9D /* Info.plist */,
+				CB7E75F01E45758400229B9D /* Supporting Files */,
+			);
+			path = SGLivingPublisher;
+			sourceTree = "<group>";
+		};
+		CB7E75F01E45758400229B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E75F11E45758400229B9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB7E76071E45764C00229B9D /* SGRTMPKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76081E45764C00229B9D /* Api */,
+				CB7E760B1E45764C00229B9D /* Category */,
+				CB7E76101E45764C00229B9D /* Encoder */,
+				CB7E76151E45764C00229B9D /* Package */,
+				CB7E761C1E45764C00229B9D /* Rtmp */,
+				CB7E76241E45764C00229B9D /* Source */,
+			);
+			path = SGRTMPKit;
+			sourceTree = "<group>";
+		};
+		CB7E76081E45764C00229B9D /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76091E45764C00229B9D /* SGSimpleSession.h */,
+				CB7E760A1E45764C00229B9D /* SGSimpleSession.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		CB7E760B1E45764C00229B9D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E760C1E45764C00229B9D /* NSMutableData+Buffer.h */,
+				CB7E760D1E45764C00229B9D /* NSMutableData+Buffer.m */,
+				CB7E760E1E45764C00229B9D /* NSString+URL.h */,
+				CB7E760F1E45764C00229B9D /* NSString+URL.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CB7E76101E45764C00229B9D /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76111E45764C00229B9D /* SGAACEncoder.h */,
+				CB7E76121E45764C00229B9D /* SGAACEncoder.m */,
+				CB7E76131E45764C00229B9D /* SGH264Encoder.h */,
+				CB7E76141E45764C00229B9D /* SGH264Encoder.m */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		CB7E76151E45764C00229B9D /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76161E45764C00229B9D /* SGAACPackager.h */,
+				CB7E76171E45764C00229B9D /* SGAACPackager.m */,
+				CB7E76181E45764C00229B9D /* SGFrame.h */,
+				CB7E76191E45764C00229B9D /* SGFrame.m */,
+				CB7E761A1E45764C00229B9D /* SGH264Packager.h */,
+				CB7E761B1E45764C00229B9D /* SGH264Packager.m */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		CB7E761C1E45764C00229B9D /* Rtmp */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E761D1E45764C00229B9D /* SGRtmpConfig.h */,
+				CB7E761E1E45764C00229B9D /* SGRtmpConfig.m */,
+				CB7E761F1E45764C00229B9D /* SGRtmpSession.h */,
+				CB7E76201E45764C00229B9D /* SGRtmpSession.m */,
+				CB7E76211E45764C00229B9D /* SGRtmpTypes.h */,
+				CB7E76221E45764C00229B9D /* SGStreamSession.h */,
+				CB7E76231E45764C00229B9D /* SGStreamSession.m */,
+			);
+			path = Rtmp;
+			sourceTree = "<group>";
+		};
+		CB7E76241E45764C00229B9D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E76251E45764C00229B9D /* SGAudioConfig.h */,
+				CB7E76261E45764C00229B9D /* SGAudioConfig.m */,
+				CB7E76271E45764C00229B9D /* SGAudioSource.h */,
+				CB7E76281E45764C00229B9D /* SGAudioSource.m */,
+				CB7E76291E45764C00229B9D /* SGVideoConfig.h */,
+				CB7E762A1E45764C00229B9D /* SGVideoConfig.m */,
+				CB7E762B1E45764C00229B9D /* SGVideoSource.h */,
+				CB7E762C1E45764C00229B9D /* SGVideoSource.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7E75EC1E45758400229B9D /* SGLivingPublisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7E76041E45758400229B9D /* Build configuration list for PBXNativeTarget "SGLivingPublisher" */;
+			buildPhases = (
+				CB7E75E91E45758400229B9D /* Sources */,
+				CB7E75EA1E45758400229B9D /* Frameworks */,
+				CB7E75EB1E45758400229B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLivingPublisher;
+			productName = SGLivingPublisher;
+			productReference = CB7E75ED1E45758400229B9D /* SGLivingPublisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7E75E51E45758400229B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xingyun;
+				TargetAttributes = {
+					CB7E75EC1E45758400229B9D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = UPT3LKBD78;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CB7E75E81E45758400229B9D /* Build configuration list for PBXProject "SGLivingPublisher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7E75E41E45758400229B9D;
+			productRefGroup = CB7E75EE1E45758400229B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7E75EC1E45758400229B9D /* SGLivingPublisher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7E75EB1E45758400229B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7E76001E45758400229B9D /* LaunchScreen.storyboard in Resources */,
+				CB7E75FD1E45758400229B9D /* Assets.xcassets in Resources */,
+				CB7E75FB1E45758400229B9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7E75E91E45758400229B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7E76361E45764C00229B9D /* SGRtmpConfig.m in Sources */,
+				CB7E76321E45764C00229B9D /* SGH264Encoder.m in Sources */,
+				CB7E762E1E45764C00229B9D /* SGSimpleSession.m in Sources */,
+				CB7E76301E45764C00229B9D /* NSString+URL.m in Sources */,
+				CB7E763C1E45764C00229B9D /* SGVideoSource.m in Sources */,
+				CB7E76331E45764C00229B9D /* SGAACPackager.m in Sources */,
+				CB7E76391E45764C00229B9D /* SGAudioConfig.m in Sources */,
+				CB7E76311E45764C00229B9D /* SGAACEncoder.m in Sources */,
+				CB7E763A1E45764C00229B9D /* SGAudioSource.m in Sources */,
+				CB7E76351E45764C00229B9D /* SGH264Packager.m in Sources */,
+				CB7E75F81E45758400229B9D /* ViewController.m in Sources */,
+				CB7E75F51E45758400229B9D /* AppDelegate.m in Sources */,
+				CB7E763B1E45764C00229B9D /* SGVideoConfig.m in Sources */,
+				CB7E76341E45764C00229B9D /* SGFrame.m in Sources */,
+				CB7E76381E45764C00229B9D /* SGStreamSession.m in Sources */,
+				CB7E75F21E45758400229B9D /* main.m in Sources */,
+				CB7E762F1E45764C00229B9D /* NSMutableData+Buffer.m in Sources */,
+				CB7E76371E45764C00229B9D /* SGRtmpSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB7E75F91E45758400229B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7E75FA1E45758400229B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7E75FE1E45758400229B9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7E75FF1E45758400229B9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB7E76021E45758400229B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB7E76031E45758400229B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7E76051E45758400229B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UPT3LKBD78;
+				INFOPLIST_FILE = SGLivingPublisher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyun.app.SGLivingPublisher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "db9e99f2-9ea8-438d-b662-159ee4d10d8c";
+				PROVISIONING_PROFILE_SPECIFIER = YZTV_Universal_Development;
+			};
+			name = Debug;
+		};
+		CB7E76061E45758400229B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UPT3LKBD78;
+				INFOPLIST_FILE = SGLivingPublisher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyun.app.SGLivingPublisher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "db9e99f2-9ea8-438d-b662-159ee4d10d8c";
+				PROVISIONING_PROFILE_SPECIFIER = YZTV_Universal_Development;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7E75E81E45758400229B9D /* Build configuration list for PBXProject "SGLivingPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7E76021E45758400229B9D /* Debug */,
+				CB7E76031E45758400229B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7E76041E45758400229B9D /* Build configuration list for PBXNativeTarget "SGLivingPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7E76051E45758400229B9D /* Debug */,
+				CB7E76061E45758400229B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7E75E51E45758400229B9D /* Project object */;
+}
