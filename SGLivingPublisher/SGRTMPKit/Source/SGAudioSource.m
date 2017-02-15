@@ -100,7 +100,7 @@
     //音频流描述
     AudioStreamBasicDescription desc = {0};
     desc.mSampleRate = self.config.sampleRate;
-    desc.mFormatID = kAudioFormatLinearPCM;//PCM?
+    desc.mFormatID = kAudioFormatLinearPCM;//原始数据为PCM格式
     desc.mFormatFlags = kAudioFormatFlagIsSignedInteger | kAudioFormatFlagsNativeEndian | kAudioFormatFlagIsPacked;
     desc.mChannelsPerFrame = (UInt32)self.config.channels;
     desc.mFramesPerPacket = 1;//一个包里多少帧

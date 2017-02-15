@@ -77,6 +77,7 @@
     //输出设置
     self.videoDataOutput = [[AVCaptureVideoDataOutput alloc] init];
     
+    //kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange 表示原始数据的格式为YUV420
     NSDictionary *settings = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNumber numberWithUnsignedInt:kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange], kCVPixelBufferPixelFormatTypeKey, nil];
     self.videoDataOutput.videoSettings = settings;
     self.videoDataOutput.alwaysDiscardsLateVideoFrames = YES;
